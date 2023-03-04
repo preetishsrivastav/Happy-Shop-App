@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1057884247796",
+    "project_id": "happy-shop-dcb56",
+    "storage_bucket": "happy-shop-dcb56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057884247796:android:510793e9e3635e294c70a1",
+        "android_client_info": {
+          "package_name": "com.example.happyshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057884247796-p98eo5rsn022s4jeceqbar66s2oadpbu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.happyshop",
+            "certificate_hash": "0b9642d1e93b3e607887196cacc5e84796fd26b5"
+          }
+        },
+        {
+          "client_id": "1057884247796-riuk1u3eih187b63s9801f1q9hib91vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC_R89bcp2VhNNxPVQ6uMF9m73gI4EYxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057884247796-riuk1u3eih187b63s9801f1q9hib91vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

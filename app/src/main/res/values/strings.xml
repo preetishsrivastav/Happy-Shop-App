@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Happy Shop</string>
+    <string name="happy_shop">HAPPY SHOP</string>
+    <string name="a_faster_way_to_shop">A Faster Way To Shop</string>
+
+    <!--START-->
+    <string name="content_description">image</string>
+    <string name="title_login">LOGIN</string>
+    <string name="et_hint_email_id">Email ID</string>
+    <string name="et_hint_password">Password</string>
+    <string name="lbl_forgot_password">Forgot Password?</string>
+    <string name="btn_lbl_login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register"><u>Register</u></string>
+    <!--END-->
+
+
+    <string name="create_an_account">CREATE AN ACCOUNT</string>
+
+    <string name="hint_last_name">Last name</string>
+    <string name="hint_first_name">First name</string>
+    <string name="et_hint_confirm_password">Confirm Password</string>
+
+    <string name="i_agree_to_the_terms_and_condition">I Agree To The <u> Terms &amp; Condition </u></string>
+    <string name="btn_lbl_register">Register</string>
+
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login"><u>Login</u></string>
+    <!--END-->
+
+    <!-- START   -->
+
+    <string name="err_msg_enter_first_name">Please enter first name.</string>
+    <string name="err_msg_enter_last_name">Please enter last name.</string>
+    <string name="err_msg_enter_email">Please enter email.</string>
+    <string name="err_msg_enter_password">Please enter password.</string>
+    <string name="err_msg_enter_confirm_password">Please enter confirm password.</string>
+    <string name="err_msg_password_and_confirm_password_mismatch">Password and confirm password does not match.</string>
+    <string name="err_msg_agree_terms_and_condition">Please agree terms and condition.</string>
+    <string name="please_wait">Please Wait...</string>
+    <!--    END-->
+
+    <!--START-->
+    <string name="title_forgot_password">FORGOT PASSWORD?</string>
+    <string name="forgot_password_title_description">Enter your username and e-mail address we\'ll send you a email to reset your password</string>
+    <string name="btn_lbl_submit">Submit</string>
+    <!--END-->
+
+    <string name="complete_profile">PROFILE</string>
+    <string name="et_hint_mobile_number">Mobile Number</string>
+
+    <!--TODO Step 6: Add the string resources in the strings.xml file.-->
+    <!--START-->
+    <string name="rb_lbl_male">MALE</string>
+    <string name="rb_lbl_female">FEMALE</string>
+    <string name="btn_lbl_save">Save</string>
+
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_products">Products</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_orders">Orders</string>
+    <string name="settings">Settings</string>
+    <!--END-->
+    <!--START-->
+    <string name="title_settings">Settings</string>
+    <string name="lbl_edit">Edit</string>
+    <string name="lbl_addresses">Addresses</string>
+    <string name="btn_lbl_logout">Logout</string>
+    <string name="add_products">Add Products</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_title">Product Title</string>
+    <string name="product_description">Product Description</string>
+    <string name="product_quantity">Product Quantity</string>
+    <string name="add_products_homescress">ADD PRODUCTS</string>
+    <string name="product_image">product_image</string>
+    <string name="add_image_icon">add_image_icon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_products_added_yet">No Products Added Yet!!</string>
+    <string name="this_is_a_image">This is a image</string>
+    <string name="no_products_to_show">No Products To Show!!</string>
+
+    <string name="title_product_details">PRODUCT DETAILS</string>
+    <string name="lbl_product_description">Product Description</string>
+    <string name="lbl_product_details_stock_quantity">Stock Quantity</string>
+    <string name="cart">Cart</string>
+    <string name="add_to_cart">Add To Cart</string>
+
+    <style name="cart_fragment">This is cart fragment</style>
+</resources>
