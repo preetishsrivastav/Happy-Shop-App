@@ -38,6 +38,7 @@ class ProductDetailActivity : AppCompatActivity() {
 
     }
 
+// function to setup action bar
 private fun setUpActionBar(){
         val toolbarProduct=findViewById<androidx.appcompat.widget.Toolbar>(R.id.toolbar_product_details_activity)
         setSupportActionBar(toolbarProduct)
