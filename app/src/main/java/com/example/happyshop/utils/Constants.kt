@@ -25,6 +25,8 @@ object Constants {
     const val USER_ID="userId"
     const val PRODUCT_ID="productId"
     const val PRODUCT_OWNER_ID="productOwnerId"
+    const val DEFAULT_CART_QUANTITY="1"
+    const val CART_ITEMS="cart_items"
 
 
     fun showImageChooser(activity: Activity){

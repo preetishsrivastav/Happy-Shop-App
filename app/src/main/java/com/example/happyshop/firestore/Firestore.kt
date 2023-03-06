@@ -6,6 +6,7 @@ import android.content.SharedPreferences
 import android.util.Log
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import com.example.happyshop.model.CartItem
 import com.example.happyshop.model.Products
 import com.example.happyshop.model.User
 import com.example.happyshop.ui.activities.*
@@ -196,7 +197,17 @@ private lateinit var mUser:User
 
 
     }
-
+ fun addToCart(activity: ProductDetailActivity,cartItem:CartItem){
+     fireStore.collection(Constants.CART_ITEMS)
+         .document()
+         .set(cartItem, SetOptions.merge())
+         .addOnSuccessListener {
+             activity.addToCartSuccess()
+         }.addOnFailureListener {
+             e->
+             Toast.makeText(activity,e.message.toString(),Toast.LENGTH_SHORT).show()
+         }
+ }
 
 
 }
